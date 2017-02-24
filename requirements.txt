@@ -1,0 +1,7 @@
+easyargs==0.9.3
+youtube_dl==2017.2.21
+PyQt5==5.8
+billboard.py==3.0.2
+beautifulsoup4==4.5.3
+lxml==3.7.3
+unicode_slugify==0.1.3
