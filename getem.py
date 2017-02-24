@@ -53,11 +53,12 @@ def processPlaylists(charts):
 @easyargs
 def main(src='billboard', showplaylists=False, pl=None, plfile=None):
     """                                                                              
-    GetEm - get electronic music
-    download songs and info within the playlist - e.g. billboard charts
-    for now in ogg - since android was not working well with mp3
-    1. getem.py --showplaylists > list.m3u  #create playlists file then uncomment playlists for downloading
-    2. getem.py --plfile list.m3u           #download all the uncommented playlists
+    GetEm - get electronic music\n
+    download songs and info within the playlist - e.g. billboard charts\n
+    for now in ogg - since android was not working well with mp3\n
+    1. getem.py --showplaylists > list.m3u  #create playlists file then uncomment playlists for downloading\n
+    2. getem.py --plfile list.m3u           #download all the uncommented playlists\n
+    \n
     :param src: source for the playlist - for now only 1 src supported
     :param showplaylists: the available playlists, direct it to a file, to send with plfile option
     :param pl: a playlist to get
