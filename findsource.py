@@ -30,8 +30,3 @@ def songSource(description):
             ret[ytcode] = { 'source':yd, 'query':description }
     return ret
 
-
-def testSongSource():
-    r = songSource('coldplay yellow')
-    assert len(r) > 0
-
