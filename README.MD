@@ -150,3 +150,7 @@ The list.m3u might look like this:
 #world-albums
 #youtube
 ```
+  
+  
+btw, the tests are not in their own directory because I think python3.6 has some py.test problems with the way modules are found - but I don't have time to hunt that down right now - there are some related googled/stackoverflow issues out there
+

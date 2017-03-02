@@ -61,8 +61,8 @@ def main(src='billboard', showplaylists=False, pl=None, plfile=None):
     \n
     :param src: source for the playlist - for now only 1 src supported
     :param showplaylists: the available playlists, direct it to a file, to send with plfile option
-    :param pl: a playlist to get
-    :param plfile: one or more comma separated playlists
+    :param pl: one or more comma separated playlists
+    :param plfile: a playlist to get
     """                                                                              
     if not src == 'billboard':
         print('Unsupported source: {}'.format(src))
